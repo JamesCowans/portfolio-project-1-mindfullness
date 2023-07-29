@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mukta+Vaani:wght@200&family=Oswald&family=Signika&display=swap');
+
+body {
+    font-family: Mukta+Vaani, sans-serif;
+    font-weight: 200;
+    color: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#main-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/main-image.jpg');
+    background-repeat: no-repeat;
+
+
+}
