@@ -1,17 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mukta+Vaani:wght@200&family=Oswald&family=Signika&display=swap');
 
-body {
-    font-family: Mukta+Vaani, sans-serif;
-    font-weight: 200;
-    color: green;
-}
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+
+
+body {
+    font-family: Mukta+Vaani, sans-serif;
+    font-weight: 200;
+    color: #7991AB;
+}
+
+#logo {
+    float: left;
+}
+
+/* navigation menu*/
+
+#navigation ul {
+    font-size: 125%;
+    color: #7991AB;
+
+}
+
+#navigation li {
+    list-style-type: none;
+    margin-right: 50px;
+    float: right;
+    color: #7991AB;
+}
+
+/* main site central graphic */
 #main-image {
     height: 500px;
     width: 100%;
