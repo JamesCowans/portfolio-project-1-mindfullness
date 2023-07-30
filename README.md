@@ -47,6 +47,16 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here: [Mind Matters Live Site](https://jamescowans.github.io/portfolio-project-1-mindfullness/)
 
+##Credits
+
+#Content
+
+The videos comes directly from YouTube using their pre-written embedding links
+
+The Footer icons are from Font Awesome
+
+The main photo came from Pexels.com
+
 
 
 
