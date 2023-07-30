@@ -10,8 +10,8 @@
 
 body {
     font-family: Mukta+Vaani, sans-serif;
-    font-weight: 200;
-    color: #7991AB;
+    font-weight: 50;
+    color: black;
 }
 
 #logo {
@@ -29,7 +29,7 @@ body {
 }
 
 #navigation a:hover {
-    border-bottom: 5px solid;
+    border-bottom: 1px solid;
 }
 
 #navigation li {
@@ -58,7 +58,9 @@ header {
     width: 100%;
     height: 125px;
     margin: 0 auto;
-    background-color: lightskyblue;
+    background-color: rgb(135, 206, 250, 0.8);
+    font-family: Signika, sans-serif;
+    font-weight: 200;
 }
 
 /* main site central graphic */
@@ -71,37 +73,14 @@ header {
     height: 500px;
 }
 
-
-#quote-left {
-
-    width: 33%;
-    padding-top: 25%;
-    float: left;
-    background-color: red;
-    clear: both;
-
-
-}
-
-#quote-right {
-
-    width: 33%;
-    padding-top: 25%;
-    float: right;
-    background-color: blue;
-    clear: both;
-
-}
-
-
-
 #main-image-container {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     border-style: solid;
     border-color: white;
     border-width: 1px;
-    border-radius: 50%;
+
+
     margin: 0 auto;
 }
 
@@ -111,37 +90,41 @@ header {
     background: url('../images/main-image.jpg') no-repeat center center;
     background-repeat: no-repeat;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 20px;
+
 }
 
 /* introduction */
 
 #intro {
     padding: 50px;
-    width: 50%;
+    width: 33%;
     height: 125px;
     text-align: center;
 
 }
 
-
-footer {
-    width: 100%;
-    height: 125px;
-    margin: 0 auto;
-    margin-bottom: 0;
-    background-color: lightskyblue;
+#intro p {
+    font-size: larger;
+    font-style: italic;
 }
 
-#socials {
-    width: 100%;
-    height: 125px;
-    background-color: red;
-    margin-bottom: 25;
-    display: inline;
+
+/* Quotes */
+
+
+#quote1 {
+    float: left;
+    height: 25px;
+    max-width: 33%;
 }
 
 /* mailing list */
+
+#form {
+    text-align: center;
+
+}
 
 #mail {
 
@@ -154,20 +137,42 @@ footer {
 .signup-form {
 
     color: black;
-    background-color: lightskyblue;
-    max-width: 200px;
-    float: right;
-    margin: 5px 100px 25px, 0;
+    background-color: cornflowerblue;
+    text-align: center;
+    max-width: 50%;
 
+
+    height: 500px;
+}
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+footer {
+
+    height: 150px;
 
 
 }
 
-
 .interact {
-    height: 250px;
-    width: 33%;
-    float: left;
-    color: red;
+    text-align: center;
+    height: 125px;
 
+}
+
+.interact>li {
+    display: inline;
+}
+
+.interact i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(135, 206, 250, 1.5);
 }
