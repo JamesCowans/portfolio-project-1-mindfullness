@@ -27,3 +27,11 @@ This page contains a form that allows the user to sign up for email updates, the
 #HTML and CSS Testing
 
 The email form was tested and received a conformation message and the HTML and CSS were run through the W3C checkers with only the iframes that YouTube use for the embedded videos flagging up as a concern
+
+##Lighthouse Testing
+
+The site was tested using lighthouse from chrome developer tools
+
+
+
+
