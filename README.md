@@ -32,6 +32,8 @@ The email form was tested and received a conformation message and the HTML and C
 
 The site was tested using lighthouse from chrome developer tools
 
+![image](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/4cc29803c5d08812b6869c1f4dd8206e6225d975/assets/images/Lighthouse%20Report.jpg)
+
 
 
 
