@@ -12,6 +12,9 @@ At the bottom of the index page the user is also able to link to social media ac
 On this page the user is able to watch videos on how to practice mindfulness as well as follow links to additional material on the subject
 ![image](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/c2cf927911d823c6e967ddca3306dc4659428fe3/assets/images/Mind%20Matters%20Tutorial%20Page.jpeg)
 
+## Emailing List Page
+
+The user is able to sign up for email updates on mindfulness
 
 ![image](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/5377a0bf917cfe564fe4bb045c413bded17fc3c6/assets/images/Mind%20Matters%20Index%20Page.jpeg)
 Lighthouse Report
