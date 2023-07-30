@@ -202,12 +202,38 @@ footer {
 
 /* Videos for tutorials */
 
-#videos {
+/* #videos {
     text-align: left;
     padding: 25px;
 
+} */
+
+#video-one {
+    float: left;
+    padding: 10px;
+    padding-top: 10px;
+    width: 33%;
+
+}
+
+#video-two {
+    float: right;
+    padding: 10px;
+    padding-top: 10px;
+    width: 33%;
+
+}
+
+#video-three {
+    padding-top: 10px;
+    margin: 0 auto;
 }
 
 #links {
+    text-align: center;
     clear: both;
+    font-family: Signika, sans-serif;
+    font-size: 150%;
+    padding: 10px;
+
 }
