@@ -34,6 +34,19 @@ The site was tested using lighthouse from chrome developer tools
 
 ![image](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/4cc29803c5d08812b6869c1f4dd8206e6225d975/assets/images/Lighthouse%20Report.jpg)
 
+##Compatability
+
+The site was tested using Chrome Developer Tools and showed up well on different formats, Full screen, laptop, tablet and phone
+
+##Deployment
+
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here: 
+
 
 
 
