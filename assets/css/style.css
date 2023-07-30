@@ -199,3 +199,15 @@ footer {
     font-family: Signika, sans-serif;
     font-size: 100%;
 }
+
+/* Videos for tutorials */
+
+#videos {
+    text-align: left;
+    padding: 25px;
+
+}
+
+#links {
+    clear: both;
+}
