@@ -175,6 +175,8 @@ header {
     border-color: black;
 }
 
+/* social media */
+
 footer {
     height: 150px;
 }
@@ -237,5 +239,80 @@ footer {
     font-family: Signika, sans-serif;
     font-size: 150%;
     padding: 10px;
+
+}
+
+/* media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {}
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #main {
+        width: 75%;
+    }
+
+    #logo {
+        font-size: 250%;
+    }
+
+    #navigation li {
+
+        float: right;
+        font-size: 150%;
+        display: inline;
+        spacing: 2px;
+
+
+
+
+    }
+
+    #intro {
+        padding: 0;
+        clear: right;
+    }
+
+    #videos {
+        display: block;
+    }
+
+    #video-one {
+        clear: both;
+        margin: 0 auto;
+        padding: 0;
+        width: 50%;
+        float: left;
+
+    }
+
+    #video-two {
+        clear: both;
+        margin: 0 auto;
+
+        width: 50%;
+        float: left;
+    }
+
+    #video-three {
+        clear: both;
+        margin: 0 auto;
+        float: left;
+    }
+}
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #logo {
+        text-align: center;
+    }
+
+    #navigation {
+        font-size: medium;
+        clear: both;
+        text-align: center
+    }
 
 }
