@@ -355,12 +355,17 @@ footer {
 
         clear: both;
 
-        display: inline;
+
         font-size: 75%;
     }
 
     .labels {
-        font-size: 75%
+        display: flex;
+        clear: both;
+        font-size: 75%;
+        padding-top: 5px;
+        padding-left: 10px;
+
     }
 
     #fname {
@@ -394,6 +399,7 @@ footer {
     #button {
         clear: both;
         margin-top: 25px;
+        float: right;
     }
 
     footer {
