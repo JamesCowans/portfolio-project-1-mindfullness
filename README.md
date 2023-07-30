@@ -10,4 +10,10 @@ at the bottom of the page there are social media links that open in a new browse
 
 ![image](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/a90d4e92ad2c47719166440c3484f9674a0d477d/assets/images/Mind%20Matters%20Index%20Page.jpeg)
 
+##Tutorial Page
+
+This page has 3 videos on the subject of mindfulness, the code comes directly from YouTube who give the option of embedding the videos so no code was written to link to them
+
+There are also links to additional reading from websites such as mind and the nhs
+
 
