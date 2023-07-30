@@ -21,14 +21,6 @@ body {
     font-size: 500%;
 }
 
-#tag-line {
-    clear: left;
-    margin-top: 25px;
-    float: left;
-    color: black;
-    font-size: 100%;
-}
-
 /* navigation menu*/
 
 #navigation a {
@@ -129,6 +121,15 @@ header {
     float: left;
     height: 25px;
     max-width: 33%;
+    font-style: italic;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+    font-family: Signika, sans-serif;
+    font-weight: 100;
+
 }
 
 /* mailing list */
@@ -200,13 +201,12 @@ footer {
     font-size: 100%;
 }
 
+#form-box h2 {
+    padding: 10px;
+}
+
 /* Videos for tutorials */
 
-/* #videos {
-    text-align: left;
-    padding: 25px;
-
-} */
 
 #video-one {
     float: left;
@@ -228,6 +228,8 @@ footer {
     padding-top: 10px;
     margin: 0 auto;
 }
+
+/* Links */
 
 #links {
     text-align: center;
