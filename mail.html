@@ -44,13 +44,14 @@
     </section>
     <section>
         <div id="form-box">
-            <h2>Join our mailing list</h2>
-        <form action="https://formdump.codeinstitute.net" method="POST>
-            <label for="fname">Name:</label>
+            <h2 id="mail-title">Join our mailing list</h2>
+            <br>
+        <form action="https://formdump.codeinstitute.net" method="POST" id="main-from">
+            <label for="fname" class="labels">Name:</label>
             <input type="text" id="fname" name="First Name" class="form-input" required/>
-            <label for="lname">Last Name</label>
+            <label for="lname" class="labels">Last Name</label>
             <input type="text" id="lname" name="Last Name" class="form-input" required/>
-            <label for="address">Email Address:</label>
+            <label for="address" class="labels">Email Address:</label>
             <input type="email" id="address" name="Email Address" class="form-input"/>
             <input type="submit" id="button" value="Register" />
         </form>

@@ -307,12 +307,100 @@ footer {
 @media screen and (max-width: 800px) {
     #logo {
         text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
     }
 
-    #navigation {
-        font-size: medium;
+    #navigation ul {
         clear: both;
-        text-align: center
+
+
+        font-size: 60%;
+        clear: both;
+        text-align: center;
+        margin-bottom: 15px;
     }
 
-}
+    #main-graphic {
+        height: 300px;
+        width: 100%;
+    }
+
+    #main-image {
+        clear: both;
+        height: 250px;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 50px;
+
+    }
+
+    #intro>h2 {
+        font-size: 75%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 75px;
+    }
+
+    #mail-title {
+        margin: 0 auto;
+        float: right;
+        margin-bottom: 50px;
+
+    }
+
+    #main-form {
+        padding-top: 25px;
+        margin: 0;
+
+        clear: both;
+
+        display: inline;
+        font-size: 75%;
+    }
+
+    .labels {
+        font-size: 75%
+    }
+
+    #fname {
+        float: right;
+        width: 50%;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        font-size: 50%;
+    }
+
+
+
+    #lname {
+        float: right;
+        clear: both;
+        width: 50%;
+        margin-bottom: 10px;
+        margin-left: 100px;
+        font-size: 50%;
+    }
+
+    #address {
+        float: right;
+        clear: both;
+        width: 50%;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        font-size: 50%;
+    }
+
+    #button {
+        clear: both;
+        margin-top: 25px;
+    }
+
+    footer {
+        clear: both;
+    }
+
+    footer>#interact {
+        padding-left: 75px;
+
+    }
