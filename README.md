@@ -23,3 +23,7 @@ There are also links to additional reading from websites such as mind and the nh
 This page contains a form that allows the user to sign up for email updates, the code POST etc in the form header was copied directly from the coders coffeehouse email form to ensure the correct destination for the information
 
 ![image](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/73ba6de69822e4757e73f2e1d0bcdd514df149f8/assets/images/Mind%20Matters%20Mailing%20List%20Page.jpeg)
+
+#HTML and CSS Testing
+
+The email form was tested and received a conformation message and the HTML and CSS were run through the W3C checkers with only the iframes that YouTube use for the embedded videos flagging up as a concern
