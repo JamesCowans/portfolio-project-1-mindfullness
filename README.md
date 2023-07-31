@@ -57,6 +57,10 @@ The Footer icons are from Font Awesome
 
 The main photo came from Pexels.com
 
+##Additonal Credits
+
+Code for media queries page sizes from code institute Love Running Walk Through Project
+
 
 
 
