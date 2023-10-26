@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Mind Matters</title>
+    <title>Mind Matters - Contact Us</title>
     <script
       src="https://kit.fontawesome.com/d6b1861be4.js"
       crossorigin="anonymous"
@@ -13,18 +13,28 @@
   </head>
 
   <body>
-    <header>
-      <a href="index.html">
-        <h1 id="logo">Mind Matters</h1>
-      </a>
-      <nav id="navigation">
-        <ul>
-          <li><a href="mail.html">Mailing List</a></li>
-          <li><a href="tutorial.html">Tutorials</a></li>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="main-container">
+      <header>
+        <div class="page-title">
+          <a href="index.html">
+            <h1>Mind Matters</h1>
+          </a>
+        </div>
+        <div class="nav-container">
+          <nav>
+            <ul class="nav-menu">
+              <li><a href="index.html" class="nav-link-home">Home</a></li>
+
+              <li>
+                <a href="tutorial.html" class="nav-link-tutorial">Tutorials</a>
+              </li>
+              <li>
+                <a href="mail.html" class="nav-link-mail">Interact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
     <br>
     <section id="main">
         <div id="main-graphic">
@@ -43,16 +53,16 @@
         </div>
     </section>
     <section>
-        <div id="form-box">
+        <div class="form-box">
             <h2 id="mail-title">Join our mailing list</h2>
             <br>
         <form action="https://formdump.codeinstitute.net" method="POST" id="main-from">
-            <label for="fname" class="labels">First Name:</label>
-            <input type="text" id="fname" name="First Name" class="form-input" required/>
-            <label for="lname" class="labels">Last Name</label>
-            <input type="text" id="lname" name="Last Name" class="form-input" required/>
-            <label for="address" class="labels">Email Address:</label>
-            <input type="email" id="address" name="Email Address" class="form-input" required/>
+            <label for="fname" class="labels" ></label>
+            <input type="text" id="fname" name="First Name" placeholder="First Name"class="form-input" required/>
+            <label for="lname" class="labels"></label>
+            <input type="text" id="lname" name="Last Name" placeholder="Last Name" class="form-input" required/>
+            <label for="address" class="labels"></label>
+            <input type="email" id="address" name="Email Address" placeholder="Email Address" class="form-input" required/>
             <input type="submit" id="button" value="Register" />
         </form>
     </div>
