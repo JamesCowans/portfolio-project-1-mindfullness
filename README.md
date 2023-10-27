@@ -70,9 +70,9 @@ There are 2 CSS issues that I have been unable to fix, Ideally I would like to c
 
 Flexgrid has been used to allow the site to now work with different display sizes including mobile and the videos have been styled with css to preserve the aspect ratio
 
-![image]([https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/4cc29803c5d08812b6869c1f4dd8206e6225d975/assets/images/Lighthouse%20Report.jpg](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/main/assets/images/Responsiveimage.png))
+![image](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/main/assets/images/Responsiveimage.png)
 
-![image]([https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/4cc29803c5d08812b6869c1f4dd8206e6225d975/assets/images/Lighthouse%20Report.jpg](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/main/assets/images/Responsiveimage.png))
+![image](https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/main/assets/images/CSS%20Error.png)https://github.com/JamesCowans/portfolio-project-1-mindfullness/blob/main/assets/images/CSS%20Error.png)
 
 
 
