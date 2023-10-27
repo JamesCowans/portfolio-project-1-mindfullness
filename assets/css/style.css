@@ -88,14 +88,6 @@ header {
 }
 
 
-/*#navigation a {
-    text-decoration: none;
-    color: inherit;
-}*/
-
-
-
-
 /* main site central graphic */
 
 #main-section {
@@ -131,12 +123,24 @@ header {
 }
 
 /* Quotes */
-#quote1 {
-    float: left;
-    height: 25px;
-    max-width: 33%;
-    font-style: italic;
+
+
+.quotes {
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
 }
+
+.quotes h2 {
+    column-count: 1;
+    width: 100%;
+    justify-self: center;
+
+}
+
+
 
 #about {
     padding: 20px;
@@ -145,6 +149,8 @@ header {
     font-weight: 100;
 
 }
+
+
 
 /* mailing list */
 #form {
@@ -165,7 +171,8 @@ header {
 
 .form-box form {
     display: grid;
-    grid-template-row: repeat(4 1fr);
+
+    grid-template-rows: repeat(4 1fr);
     width: 100%;
 
     justify-content: center;
