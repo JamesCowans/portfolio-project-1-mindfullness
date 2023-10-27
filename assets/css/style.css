@@ -91,6 +91,13 @@ header {
     align-content: center;
 }
 
+.iframe-16-9 {
+    aspect-ratio: 19/9;
+    max-width: 100%;
+
+}
+
+
 
 /* main site central graphic */
 
@@ -134,11 +141,11 @@ header {
     grid-template-columns: 1;
     justify-content: center;
     width: 100%;
-    padding: 5px 5px 5px 5px;
+    padding: 0;
 }
 
 .quotes h2 {
-    column-count: 1;
+
     width: 100%;
     justify-self: center;
 
@@ -250,14 +257,14 @@ footer {
     color: rgb(135, 206, 250, 1);
 }
 
-#form-box {
+.form-box h2 {
+    display: flex;
+    width: 100%;
     font-family: Signika, sans-serif;
     font-size: 100%;
+    justify-content: center;
 }
 
-#form-box h2 {
-    padding: 10px;
-}
 
 /* Videos for tutorials */
 
@@ -342,5 +349,9 @@ footer {
         padding-left: 5px;
 
 
+    }
+
+    .quote p {
+        font-size: 75%;
     }
 }
